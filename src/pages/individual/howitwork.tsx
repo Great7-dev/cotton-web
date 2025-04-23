@@ -32,15 +32,16 @@ export default function HowItWork() {
           <div className="space-y-20">
             {howItWorksSteps.map((step, index) => (
               <div key={index}>
-                <h3 className="text-[#1FC16B] font-bold text-lg mb-5 font-['InterDisplay']">
+                <h3 className="text-[#1FC16B] font-medium text-lg mb-5 font-['InterDisplay']">
                   {step.number}{" "}
-                  <span className="text-white font-['InterDisplay'] ml-3">
+                  <span className="text-white font-medium font-['InterDisplay'] ml-3">
                     {step.title}
                   </span>
                 </h3>
-                <p className="text-white text-sm border-b border-[#08301B] pb-10 font-['InterDisplay']">
+                <p className="text-white text-sm font-['InterDisplay']">
                   {step.description}
                 </p>
+                <div className="border-b border-[#08301B] pt-10"></div>
               </div>
             ))}
           </div>
