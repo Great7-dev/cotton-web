@@ -1,18 +1,18 @@
 import Customers from "./customers";
 import Hero from "./Hero";
-import ProfileCards from "./profile-cards";
 import HowItWork from "./howitwork";
 import WhyChooseCotton from "./whychoose";
 import { WorkforceIndividual } from "./workForce";
 import FAQIndividual from "./faqIndividual";
 import IndividualSoon from "./comingsoon";
+import { Profilecards } from "./profile-cards";
 
 const IndividualsPage = () => {
   return (
     <div className="pt-16">
       <IndividualSoon />
       <Hero />
-      <ProfileCards />
+      <Profilecards />
       <Customers />
       <WhyChooseCotton />
       <HowItWork />
